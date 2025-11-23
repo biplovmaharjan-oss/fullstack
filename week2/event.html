@@ -1,0 +1,36 @@
+<html><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>events</title>
+</head>
+<body>
+	  <button id = "btn"> click </button>
+	  <p id = "para"></p>
+	  <h1 class = "gang">Hover me</h1>
+	  <input type = "text" id = "name" placeholder = "type sth"/>
+	  <p id = "display"></p>
+	  <script>
+	  		const button = document.getElementById('btn')
+	  		button.addEventListener('click', function(){
+	  			document.getElementById('para').innerText = "this button was clicked"
+	  		})
+
+	  		const hover = document.getElementsByClassName('gang');
+	  		console.log(hover)
+	  		hover[0].addEventListener('mouseover', function(){
+	  			hover[0].style.color = "green"
+	  		})
+	  		hover[0].addEventListener('mouseout', function(){
+	  			hover[0].style.color = "black"
+	  		})
+
+	  		const input = document.getElementById('name')
+	  		input.addEventListener('input', function(){
+	  			document.getElementById('display').innerText = input.value;
+	  		})
+	  </script>            
+
+</body>
+</html>

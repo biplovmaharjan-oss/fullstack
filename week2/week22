@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div tags</title>
+    <style>
+        .container {
+            display: flex;
+            background-color: space-between;
+        }
+
+        .box {
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 500px;
+            width: 750px;
+        }
+
+        #box1{
+            background-color:red;
+        }
+        
+        #box2{
+            background-color:green;
+        }
+        
+        #box3{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            One
+        </div>
+        <div class="box" id="box2">
+            Two
+        </div>
+        <div class="box" id="box3">
+            Three
+        </div>
+    </div>
+</body>
+</html>

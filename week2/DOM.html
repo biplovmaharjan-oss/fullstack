@@ -1,0 +1,30 @@
+<html><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	DOM </title>
+</head>
+<body>
+	<h1 id = "info"> hello herald</h1>
+	<p class = "demo">hello world</p>
+	<p class = "demo">hello nepal</p>
+	<script>
+			const p = document.getElementById('info')
+			p.innerText = "hello kathmndu"
+			p.style.color = "green"
+			p.remove()
+
+			const allPara = document.getElementsByClassName('demo')
+			allPara[0].innerText = "gang"
+			allPara[1].style.color	= "green"
+			
+			document.querySelector('#info')
+			document.querySelector('.demo')
+			document.querySelectorALL('.demo')
+			document.querySelector('p')
+			document.querySelectorALL('p')
+	</script>
+
+</body>
+</html>
