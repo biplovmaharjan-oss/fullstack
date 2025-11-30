@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function greet(name, callback){
+            setTimeout(() =>{
+                console.log("Hello.." + name)
+
+            }, 2000)
+            callback("Jorden")
+        }
+
+        function sayBye(name){
+            console.log('Goodbye' + name)
+        }
+
+        greet ("Robert", sayBye)
+    </script>
+</body>
+</html>

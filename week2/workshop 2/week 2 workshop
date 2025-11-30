@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container nav">
+            <h1 class="logo">Biplov Maharjan</h1>
+            <nav>
+                <ul class="navlinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Biplov Maharjan, a web developer passionate about creating beautiful and functional digital experiences.
+                I enjoy learning new tools and building projects that make an impact.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="section light">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <img src="https://i.pinimg.com/736x/85/93/bc/8593bc737f0e1992d71352b74e17db7d.jpg" alt="Weather App">
+                <p>A weather website I created during my first semester.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container contactgrid">
+
+            <form class="card form">
+                <h2>Contact Me</h2>
+
+                <label>Full Name
+                    <input type="text" required placeholder="Your Name">
+                </label>
+
+                <label>Email Address
+                    <input type="email" required placeholder="Your Email">
+                </label>
+
+                <label>Your Message
+                    <textarea required placeholder="Your Message"></textarea>
+                </label>
+
+                <button class="btn">Send Message</button>
+            </form>
+
+            <div class="card info">
+                <h2>Details</h2>
+                <p><strong>Email:</strong> biplovmaharjan12@example.com</p>
+                <p><strong>Phone:</strong> +977 9808273001</p>
+                <p><strong>Address:</strong> Kathmandu, Nepal</p>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>

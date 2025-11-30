@@ -32,7 +32,9 @@ body { background: #fafafa; color: #333; }
     font-weight: bold;
 }
 
-.navlinks {
+.nav
+
+links {
     display: flex;
     gap: 25px;
     list-style: none;
